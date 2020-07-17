@@ -124,13 +124,13 @@ You should be able to create a properly structured HTML document named `snippet.
 
 In `snippet.html`, you should be able to:
 
-- [ ] Name the tags in the snippet
-- [ ] Link to 2-3 online references that describe each tag, give examples, etc.
-- [ ] Describe the relationship between the tags in terms of nesting ("X is a child of Y")
-- [ ] Explain the relationship between `<p>` and `</p>`
-- [ ] Explain the relationship between `<a>` and `</a>`
-- [ ] List the attribute names on the `<a>` tag
-- [ ] For each attribute on the `<a>` tag, name its value
+- [ y] Name the tags in the snippet
+- [ y] Link to 2-3 online references that describe each tag, give examples, etc.
+- [ y] Describe the relationship between the tags in terms of nesting ("X is a child of Y")
+- [ y] Explain the relationship between `<p>` and `</p>`
+- [ y] Explain the relationship between `<a>` and `</a>`
+- [ y] List the attribute names on the `<a>` tag
+- [ y] For each attribute on the `<a>` tag, name its value
 - [ ] For each attribute/value pair on the `<a>` tag, describe its purpose and effect
 
 ### Basic Tags
