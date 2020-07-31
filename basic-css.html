@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+     <!--for screen responsiveness according to the browser window in wich this site will be open-->
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      Basic-css
+    </title>
+    <body>
+<style>
+  body{
+    background-color:rgb(173, 147, 114);
+background-image:url("https://images.unsplash.com/photo-1487260211189-670c54da558d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+background-size: cover;
+position: static;
+  }
+  span{
+    color: darkslategrey;
+    background-color: azure;
+
+  }
+  .box h3 {
+    color: darkgoldenrod;
+
+  }
+  .box h2{
+    background-color: navajowhite;
+  }
+  .box p{
+    text-transform: lowercase;
+    color: black;
+    font-size: 20px;
+  }
+  .box >p {
+    font-size: 30px;
+  }
+  .box img{
+    width: 400px;
+    height: 500px;
+    align-items: center;
+  }
+  .box{
+    background-color: darkolivegreen;
+  }
+  #idselectors{
+    padding-left: 200px;
+    margin-top: 100px;
+   background-color: rgb(233, 183, 165);
+
+  }
+  #head{
+    background-color: rgb(165, 110, 110);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+  }
+  p.essay{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+size: 40px;
+color: brown;
+
+  }
+  p.paragraph{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(75, 5, 5);
+    background-color: antiquewhite;
+
+  }
+  h1.ClassSelectors{
+    color: blue;
+    background-color: darkgrey;
+  }
+  p{
+    color:coral;
+text-align:start;
+text-transform: uppercase;
+list-style-type:circle
+
+  }
+  h1{
+    line-height: normal;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+
+
+  }
+  h2{
+    line-height: normal;
+    letter-spacing: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size:larger;
+    font-weight: lighter;
+    background-color: chocolate;
+
+  }
+  li{
+    list-style-type: disc;
+  }
+  img{
+    width: 400px;
+    height: 400px;
+    margin: initial;
+    padding-left: 30px;
+    border: 10px;
+    border-color: brown;
+    padding-top: 20px;
+  }
+</style>
+<h1>THE ILLIAD: A definition of how the gods ****** mortals</h1>
+<section>
+  <h2>Table  of Contents : through Homer's Illiad on this site</h2>
+  <ul>
+    <li>
+      <img src="https://embed-fastly.wistia.com/deliveries/e292ff06a3954f931671ae1bd96c10095860095e.webp?image_crop_resized=492x277" alt="Learn html and css"
+      width="700" height="500"> </li>
+    <li>Basic Tags in html </li>
+    <ol>The paragraph <code>p</code> tag</ol>
+    <ol> The blockquote <code>blockquote</code> tag</ol>
+    <ol> The pre-formatted text <code>pre</code> tag</ol>
+    <ol><code>em</code> and <code>i</code></ol>
+    <ol><code>strong</code> and <code>b</code></ol>
+    <ol><code>code</code> </ol>
+    <ol><code>a</code> </ol>
+    <ol><code>img</code> </ol>
+    <ol><code>h1</code> </ol>
+    <ol><code>h6</code> </ol>
+    <li>Lists </li>
+    <li>Tables </li>
+    <li> Multimedia</li>
+    <li>Common CSS Properties </li>
+    <li> Identifying CSS</li>
+    <li> Styling a page</li>
+  </ul>
+</section>
+<section>
+
+
+<h2>The Illiad of Homer:Book I</h2>
+<li>The Paragraph Tag
+<p>“Help your brave son, therefore, if you are able. Go to Olympus, and if you have ever done him service in word or deed, implore the aid of Jove. Ofttimes in my father’s house have I heard you glory in that you alone of the immortals saved the son of Saturn from ruin, when the others, with Juno, Neptune, and Pallas Minerva would have put him in bonds. It was you, goddess, who delivered him by calling to Olympus the hundred-handed monster whom gods call Briareus, but men Aegaeon, for he is stronger even than his father; when therefore he took his seat all-glorious beside the son of Saturn, the other gods were afraid, and did not bind him. Go, then, to him, remind him of all this,
+  clasp his knees, and bid him give succour to the Trojans. Let the Achaeans be hemmed in at the sterns of their ships, and perish on the sea-shore, that they may reap what joy they may of their king, and that Agamemnon may rue his blindness in offering
+   insult to the foremost of the Achaeans.”
+
+
+  </p>
+</li>
+
+  </section>
+<section>
+<h2> The Illiad of Homer: Book II</h2>
+<li>The Blockquote tag
+<p>
+<blockquote cite="https://www.gutenberg.org/files/2199/2199-h/2199-h.htm" >
+  Minerva was not slack to do her bidding. Down she darted from the topmost summits
+  of Olympus, and in a moment she was at the ships of the Achaeans.
+  here she found Ulysses, peer of Jove in counsel, standing alone.
+   He had not as yet laid a hand upon his ship, for he was grieved and sorry; so she went close up to him and said, “Ulysses, noble son of Laertes, are you going to fling yourselves into your ships and be off home to your own land in this way? Will you leave Priam and the Trojans the glory of still keeping Helen, for whose sake so many of the Achaeans have died at Troy, far from their homes?
+   Go about at once among the host, and speak fairly to them, man by man, that they draw not their ships into the sea.”
+</blockquote>
+</li>
+</p>
+</section>
+<section>
+<h2> The Illiad of Homer: Book III</h2>
+<li>The pre-formatted text
+<p>
+<pre>
+  Thus they prayed, but not as yet would Jove grant them their prayer.
+  Then Priam, descendant of Dardanus, spoke, saying, “Hear me, Trojans and Achaeans, I will now go back to the wind-beaten city of Ilius: I dare not with my own eyes witness this fight between my son and Menelaus,
+  for Jove and the other immortals alone know which shall fall.”
+</pre>
+</p>
+</li>
+</section>
+<section>
+<h2> Book III continues...</h2>
+<li>Inline text styling using the (em) and (i) tag:The Illiad of Homer
+  <p>
+<em>
+  Then she went to call Helen, and found her on a high tower with the Trojan women crowding round her.
+   She took the form of an old woman who used to dress wool for her when she was still in Lacedaemon, and of whom she was very fond.</em>
+    Thus disguised she plucked her by perfumed robe and said,<i>“Come hither; Alexandrus says you are to go to the house;
+     he is on his bed in his own room, radiant with beauty and dressed in gorgeous apparel.
+   No one would think he had just come from fighting, but rather that he was going to a dance, or had done dancing and was sitting down.”</i>
+  With these words she moved the heart of Helen to anger.
+   When she marked the beautiful neck of the goddess, her lovely bosom, and sparkling eyes, she marvelled at her and said,<i>“Goddess, why do you thus beguile me?
+    Are you going to send me afield still further to some man whom you have taken up in Phrygia or fair Meonia?
+     Menelaus has just vanquished Alexandrus, and is to take my hateful self back with him.
+     You are come here to betray me. Go sit with Alexandrus yourself; henceforth be goddess no longer; never let your feet carry you back to Olympus;
+      worry about him and look after him till he make you his wife, or, for the matter of that, his slave—but me?
+      I shall not go; I can garnish his bed no longer; I should be a by-word among all the women of Troy.
+   Besides, I have trouble on my mind.”</i>
+
+</p>
+</li>
+
+</section>
+<section>
+<h2>The Illiad of Homer: Book IV</h2>
+<li>Inline text styling using (strong) and (b)
+<p>
+<strong>
+  Now the gods were sitting with Jove in council upon the golden floor while Hebe went round pouring out nectar for them to drink,
+  and as they pledged one another in their cups of gold they looked down upon the town of Troy. The son of Saturn then began to tease Juno,
+   talking at her so as to provoke her.</strong>
+   <b>“Menelaus,” said he, “has two good friends among the goddesses, Juno of Argos, and Minerva of Alalcomene, but they only sit still and look on,
+     while Venus keeps ever by Alexandrus’ side to defend him in any danger; indeed she has just
+     rescued him when he made sure that it was all over with him—for the victory really did lie with Menelaus.
+      We must consider what we shall do about all this; shall we set them fighting anew or make peace between them?
+   If you will agree to this last Menelaus can take back Helen and the city of Priam may remain still inhabited.”</b>
+
+</p>
+</li>
+</section>
+<section>
+<h2>The Illiad of Homer: Book IV Continues.... with a little bit of Code</h2>
+<li>Inline text styling using the (code) tag
+<p>
+  And now no man would have made light of the fighting if he could have gone about among it scatheless and unwounded,
+  with Minerva leading him by the hand, and protecting him from the storm of spears and arrows.
+  For many Trojans and Achaeans on that day lay stretched side by side face downwards upon the earth. An this html file without a <code>button</code> or any CSS styles such as
+  <code>background color</code> was written to document that day.
+</p>
+</li>
+</section>
+<section>
+  <!--this is a link of an image-->
+  <li>
+ <a href="https://prodimage.images-bn.com/pimages/9780226470498_p0_v2_s1200x630.jpg">
+<img alt="Cover of Illiad book">
+</a>
+</li>
+</section>
+<section>
+
+  <img src="https://prodimage.images-bn.com/pimages/9780226470498_p0_v2_s1200x630.jpg" alt="Cover of Illiad book" width="500" height="600">
+
+</section>
+<section>
+  <h1>
+First Header
+  </h1>
+  <h2>
+Second Header
+  </h2>
+   <h3>
+Third header
+   </h3>
+<h4>
+  Fourth Header
+</h4>
+<h5>
+  Fifth Header
+</h5>
+<h6>
+  Sixth and last header
+</h6>
+</section>
+<section>
+  <h1>Table1</h1>
+  <table >
+    <tr>
+      <th>  Books</th>
+      <th>Author</th>
+      <th>Published</th>
+    </tr>
+    <tr>
+      <td>Bottle of Lies</td>
+      <td>Katherine Eban</td>
+      <td>Harper Collins Publishers</td>
+    </tr>
+    <tr>
+      <td> The Illiad of Homer</td>
+      <td>Richmond Lattimore</td>
+      <td>The University of Chicago Press</td>
+    </tr>
+  </table>
+  <h1>Table2</h1>
+  <table >
+    <tr>
+      <th>  Spring Classes</th>
+      <th>Days </th>
+      <th>Proffesor</th>
+      <th>Room</th>
+    </tr>
+    <tr>
+      <td>History Of Art</td>
+      <td> Mon, Teu</td>
+      <td>Cast</td>
+      <td>Park 120</td>
+    </tr>
+    <tr>
+      <td> Roman Africa</td>
+      <td>Teu, Wed</td>
+      <td>Avery H</td>
+      <td>Dalton 130</td>
+    </tr>
+    <tr>
+      <td> Design</td>
+      <td>Teu, Wed</td>
+      <td>Grey</td>
+      <td>Park 223</td>
+    </tr>
+    <tr>
+      <td>Computer Hardware</td>
+      <td>Mon,Wed, Fri</td>
+      <td>Douglas B</td>
+      <td>Zoom Unversity</td>
+    </tr>
+  </table>
+  <h1>Table3</h1>
+  <table >
+    <tr>
+      <th>  groceries</th>
+      <th>price</th>
+
+    </tr>
+    <tr>
+
+      <td>Bananas</td>
+      <td>$2</td>
+
+    </tr>
+    <tr>
+
+      <td> Strawberries</td>
+      <td>$5</td>
+
+    </tr>
+    <tr>
+
+      <td> Peaunt Butter</td>
+      <td>$9</td>
+
+    </tr>
+    <tr>
+
+      <td> Icecream</td>
+      <td>$3</td>
+
+    </tr>
+    <tr>
+
+      <td> Baking Flour</td>
+      <td>$8</td>
+
+    </tr>
+  </table>
+  <section>
+    <h2>  Yoga Video</h2>
+    <video height="450" width="800" controls>
+    <source src="videosandaudio/yoga.mp4" type="video/mp4" height="450"  >
+      Your browser does not support the audio tag.
+  </video>
+  </section>
+  <section>
+    <h2>Some Calm Music</h2>
+    <audio controls>
+      <source src="videosandaudio/Dream Escape - The Tides.mp3" type="audio/mp4">
+
+      Your browser does not support the audio tag.
+    </audio>
+  </section>
+  <section>
+    <h1>Rosie's Photography @Unsplash</h1>
+    <img src="https://images.unsplash.com/photo-1585856694090-ee87fe2504c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+    <img src="https://images.unsplash.com/photo-1575791122605-947602cf3519?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+    <img src="https://images.unsplash.com/photo-1560611980-c71db1f5e8c9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+    <img src="https://images.unsplash.com/photo-1586815694041-1cef2e7d78b6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+
+  </section>
+
+<section>
+  <h1>CSS Selectors</h1>
+  <h2>Type/ Tag Selectors
+  </h2>
+  <span>I am using this to show the effect of type electors on the /span> type on the style above
+    <h3>Open Letter To Design Students</h3>
+    My freedom thus consists in my moving about
+within the narrow frame that I have assigned to
+myself for each one of my undertakings. I shall
+go even further: my freedom will be so much
+the greater and more meaningful the more
+narrowly I limit my field of action and the more
+I surround myself with obstacles. Whatever
+diminishes constraint diminishes strength. The
+more constraints one imposes, the more one
+frees oneself of the claims that shackle the
+spirit. —Igor Stravinsky, The Poetics of Music
+  </span>
+</section>
+<section>
+  <h1 class="ClassSelectors"></h1>
+  <p class="paragraph">
+    For this case the changes on the style sheet will be specified on this particular class of
+    h1 and p tags and all the others will remain unchanged, Here is a paragraphy from Culture is
+    not always popular : On Design
+
+
+  </p>
+  <p class="essay">
+    With structure comes freedom. And freedom,
+let’s not forget, is what education is all about.
+It is a great time to be a student. Go out and
+make great things, things that help us, inform
+us, enlighten and change and impact the world
+in millions of meaningful and glorious ways.
+Your education will not end the day you graduate: on the contrary, what you’re doing is learning how to learn, and how to think, and how to
+visualize the ideas that percolate in your brain.
+So here’s what you do: never stop thinking.
+Never stop asking questions. Never, never stop
+reading, looking, imagining what else can be
+done. And don’t be afraid to start small. You’ll
+get there, eventually. And when you do? Send
+somebody a thank you note.
+  </p>
+</section>
+<section id="idselectors">
+  <h2 id="head">The use of Id Selector to manipulate elemets in css</h2>
+  <img src="https://images.unsplash.com/photo-1596123998585-90ea8a19c70e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60">
+
+</section>
+
+
+<section>
+  <div class="box">
+    <h2>Child and Decendant Combinators using essay excerpt</h2>
+  <h3>Remembering Yves Saint Laurent</h3>
+  <p>
+    What does it mean to design? What does
+    it mean to have been designed? In one sense,
+    the word is entirely superfluous: every artifact
+    of human invention, assembly, adaption,
+    or production, from cathedral to coffee cup,
+    has by definition been designed. Within the
+    discourse of designers, the less obviously
+    an object is the result of willful styling or
+    shaping—the less apparently it has been
+    designed by a designer—the more likely it is
+    to be celebrated as a design icon. Thus
+    Anglepoise trumps Tizio. But this timeless
+    authorlessness leaves us at a loss.
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQgMjqeVp5r8w01IzRLvRZaNKUCHgbW2klQJQ&usqp=CAU">
+  </p>
+
+  </div>
+
+</section>
+</section>
+
+
+    </body>
+  </head>
+</html>

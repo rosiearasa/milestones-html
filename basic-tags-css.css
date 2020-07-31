@@ -1,0 +1,55 @@
+#contentbody h1{
+  color: rgb(151, 73, 17);
+background-color: bisque;
+}
+#contentbody {
+
+background-color: rgb(241, 204, 204);
+}
+#section1 #tcontents{
+  color: crimson;
+
+}
+#section1 h2{
+  color: rgb(33, 161, 21);
+
+}
+#section1 ul>h2{
+  color: rgb(161, 21, 107);
+
+}
+#section2 p {
+color: rgb(189, 120, 81);
+}
+
+#section3{
+border: solid;
+margin-bottom: 20px;
+}
+#section4{
+  border: dashed;
+  margin-bottom: 20px;
+}
+#section5{
+border: double;
+margin-bottom: 20px;
+}
+#section6{
+border: dotted;
+margin-bottom: 20px;
+}
+#section7{
+border: brown;
+margin-bottom: 20px;
+}
+#section11{
+  background-color: darkgrey;
+}
+#section11 #key11{
+  background-color: darkcyan;
+
+}
+.hobby{
+  border: groove;
+
+}
